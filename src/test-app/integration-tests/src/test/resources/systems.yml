@@ -1,0 +1,14 @@
+---
+erp:
+  default: "ERP_001"
+  systems:
+    - alias: "ERP_001"
+      uri: "https://odata-mock-server-talkative-springhare-sr.cfapps.eu10.hana.ondemand.com/sap/opu/odata/sap/API_BUSINESS_PARTNER"
+      systemId: "MySystemId"           # optional, defaults to ""
+      sapClient: "001"                 # optional, defaults to default SAP client
+      locale: "en"                     # optional, defaults to English (US)
+      erpEdition: "cloud"              # optional, defaults to "cloud"
+  #credentials:
+   # - alias: "ERP_001"
+    #  username: "user"
+     # password: "pass"
